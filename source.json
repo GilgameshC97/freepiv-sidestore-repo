@@ -1,1 +1,23 @@
-{}
+{
+  "name": "freepiv",
+  "identifier": "com.gilgamesh.freepiv-source",
+  "sourceURL": "https://raw.githubusercontent.com/GilgameshC97/freepiv-sidestore-repo/main/source.json",
+  "apps": [
+    {
+      "name": "freepiv",
+      "bundleIdentifier": "io.github.normalllll.freepiv",
+      "developerName": "normalllll",
+      "subtitle": "Unofficial Pixiv client",
+      "localizedDescription": "freepiv is an unofficial Pixiv client.",
+      "iconURL": "https://raw.githubusercontent.com/normalllll/freepiv/main/icon-512.png",
+      "tintColor": "7C3AED",
+      "version": "0.4.0",
+      "versionDate": "2026-11-18T14:11:39Z",
+      "versionDescription": "freepiv 0.4.0 brings a rebuilt novel reader that remembers where you stopped, a redesigned novel page, and faster picture loading.\r\n\r\n- **Novel reader:** read a novel as one continuous scroll or page by page, with two pages side by side on wide screens. Furigana, links and page jumps are shown in the text, and Korean words stay whole at line ends.\r\n- **Reading position:** each novel reopens exactly where you left off, and a finished novel reopens at its end.\r\n- **Reader controls:** tap the screen to show the bars with a progress track, the time left in the chapter and a contents and illustrations sidebar. Tap the left or right side to turn a page. Font size, line spacing, margins and a white, paper, green, night or black theme change live in one panel. Auto scroll has five speeds, and the keyboard turns pages on desktop.\r\n- **End of a novel:** an end card offers bookmarking, comments and, for a series, the next and previous parts and following the series. In page mode it sits under the last text when there is room.\r\n- **Pictures in novels:** pictures load at your preview quality and show a blurred thumbnail until they arrive. Their space is reserved before they load, so the text you are reading does not jump. Tap a picture to see it full size.\r\n- **Novel page:** a new layout with the cover, a facts table (length, reading time, sections, date, bookmarks and views), an illustration strip and the novel's place in its series with your progress on the other parts. The page keeps still while it loads.\r\n- **Image loading:** many pictures load at once much faster, pictures you scroll past stop downloading, and a picture that cannot be loaded fails at once instead of retrying.\r\n- **Pixivision:** an article keeps its layout while it loads, and its banner is the picture from the list.\r\n- **Fixes:** on phones the page behind a back gesture no longer flashes a blurred background; the opening paragraph of a Pixivision article is no longer shown twice; the custom accent colour dialog no longer jumps while you drag its sliders; and the app starts normally when its browsing history file cannot be opened, starting a new history.\r\n\r\n**Installation notes**\r\n\r\n- Android 7.0 or later, iOS 15 or later and macOS 12 or later are required.\r\n- macOS apps are not notarized, and the iOS IPA must be signed before it can be installed.\r\n- Linux builds target Ubuntu 24.04, on x64 and ARM64. DEB and RPM packages declare their dependencies; the portable archives need GTK 3 and libstdc++.\r\n- Keep the app running while downloading; transfers may pause if the system suspends it.",
+      "downloadURL": "https://github.com/normalllll/freepiv/releases/download/v0.4.0%2B9/ios-nosigned.ipa",
+      "size": 23808025,
+      "beta": false
+    }
+  ],
+  "news": []
+}
